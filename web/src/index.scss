@@ -248,13 +248,16 @@ button:active {
 
 .inventory-slot-label-text {
   text-transform: uppercase;
-  white-space: nowrap;
+  white-space: initial;
   overflow: hidden;
   text-overflow: ellipsis;
   padding: 2px 3px;
   font-weight: 400;
   font-family: $mainFont;
-  font-size: 12px;
+  font-size: 11px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .inventory-slot-number {

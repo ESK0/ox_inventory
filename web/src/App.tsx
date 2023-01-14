@@ -45,7 +45,7 @@ debugData([
             name: 'water',
             weight: 100,
             count: 1,
-            metadata: { description: 'Generic item description' },
+            metadata: {label: "Sklenice na šampaňské", description: 'Generic item description' },
           },
           { slot: 5, name: 'water', weight: 100, count: 1 },
         ],
