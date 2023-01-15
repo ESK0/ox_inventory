@@ -80,7 +80,7 @@ local function loadInventoryData(data, player)
 				local vehicle = Ox.GetVehicle(entity)
 
 				if vehicle then
-					inventory = Inventory.Create(vehicle.id or vehicle.plate, plate, data.type, storage[1], 0, storage[2], false)
+					inventory = Inventory.Create(vehicle.id or vehicle.plate, vehicle.plate, data.type, storage[1], 0, storage[2], false)
 				end
 			end
 
